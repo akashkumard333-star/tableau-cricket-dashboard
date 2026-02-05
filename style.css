@@ -36,7 +36,7 @@ body{
 /* ===== HERO BANNER (background image + overlay content) ===== */
 .hero{
   position: relative;
-  min-height: 10vh;
+  max-height: 10vh;
   filter: saturate(1.15) contrast(1.08);
 
   /* Make image more visible: lighter overlay */
