@@ -67,11 +67,12 @@ body{
 }
 
 .hero h1{
-  margin:16px 0 12px;
-  font-size: clamp(32px, 4vw, 54px);
-  font-weight: 900;
-  line-height: 1.1;
+  margin: 12px 0 10px;
+  font-size: clamp(26px, 3.2vw, 40px);
+  font-weight: 800;
+  line-height: 1.15;
 }
+
 
 .subtitle{
   max-width: 900px;
