@@ -37,7 +37,7 @@ body{
 .hero{
   position: relative;
   filter: saturate(1.15) contrast(1.08);
-  min-height: 92vh;
+  min-height: 72vh;
 
   /* Make image more visible: lighter overlay */
   background:
