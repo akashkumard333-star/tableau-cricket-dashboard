@@ -1,3 +1,52 @@
+/* ===== HERO BANNER WITH BACKGROUND IMAGE ===== */
+
+.hero {
+  position: relative;
+  min-height: 75vh;
+  background:
+    linear-gradient(
+      rgba(7, 11, 24, 0.85),
+      rgba(7, 11, 24, 0.85)
+    ),
+    url("assets/tableau-banner.png") center / cover no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.hero-overlay {
+  width: 100%;
+  padding: 80px 0;
+}
+
+.hero h1 {
+  font-size: clamp(32px, 4vw, 52px);
+  font-weight: 900;
+  margin: 16px 0 12px;
+  line-height: 1.1;
+}
+
+.hero .subtitle {
+  max-width: 900px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #cfd9ff;
+  margin-bottom: 28px;
+}
+
+/* Badge on banner */
+.hero .badge {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: rgba(15, 23, 42, 0.7);
+  font-weight: 700;
+  color: #c7d2fe;
+}
+
+/* Buttons stay same */
+
+
 :root{
   --bg:#070b18;
   --card:#0d1530;
