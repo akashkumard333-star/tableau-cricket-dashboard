@@ -52,6 +52,22 @@ body{
 }
 
 /* ✅ Banner styling */
+/* ===== Hero Banner ===== */
+.hero-banner{
+  margin: 14px 0 22px;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: rgba(13,21,48,.6);
+  box-shadow: var(--shadow);
+}
+
+.hero-banner img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .hero-banner{
   border-radius:18px;
   overflow:hidden;
