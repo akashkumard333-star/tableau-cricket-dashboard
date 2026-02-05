@@ -36,16 +36,18 @@ body{
 /* ===== HERO BANNER (background image + overlay content) ===== */
 .hero{
   position: relative;
-  filter: saturate(1.15) contrast(1.08);
-  min-height: 92vh;
+  min-height: 78vh;
+
+  /* Make image more visible: lighter overlay */
   background:
-    linear-gradient(rgba(7,11,24,0.35), rgba(7,11,24,0.55)),
+    linear-gradient(rgba(7,11,24,0.45), rgba(7,11,24,0.65)),
     url("https://raw.githubusercontent.com/akashkumard333-star/tableau-cricket-dashboard/main/assets/tableau-banner.png")
-    center / contain no-repeat;
+    center / cover no-repeat;
 
   display:flex;
   align-items:center;
 }
+
 
 
 
