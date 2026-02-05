@@ -36,7 +36,8 @@ body{
 /* ===== HERO BANNER (background image + overlay content) ===== */
 .hero{
   position: relative;
-  min-height: 78vh;
+  filter: saturate(1.15) contrast(1.08);
+  min-height: 92vh;
 
   /* Make image more visible: lighter overlay */
   background:
@@ -47,8 +48,6 @@ body{
   display:flex;
   align-items:center;
 }
-
-
 
 
 .hero-overlay{
