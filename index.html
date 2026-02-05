@@ -4,34 +4,37 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>ICC World Cup 2019 Dashboard | Akash Kumar</title>
-  <meta name="description" content="Professional Tableau portfolio page for ICC Cricket World Cup 2019 analytics dashboard, planning, dataset, and insights." />
+  <meta name="description" content="Interactive Tableau dashboard analyzing ICC Cricket World Cup 2019 team performance, venues, innings trends, and match strategy." />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <div class="bg"></div>
 
+  <!-- ================= HEADER ================= -->
   <header class="container header">
     <div class="badge">Tableau • Data Visualization • Sports Analytics</div>
+    <!-- ===== Hero Banner ===== -->
+<div class="hero-banner">
+  <img
+    src="assets/banner-tableau.png"
+    alt="ICC Cricket World Cup 2019 Tableau Analytics Banner"
+  />
+</div>
 
-    <!-- ✅ Banner -->
-    <div class="hero-banner">
-      <img src="https://github.com/akashkumard333-star/akashkumard333/blob/5002510537c1c2f9d0aec832c790f3644ab93274/assets/tableau-banner.png" alt="Tableau + Cricket Analytics Banner" />
-    </div>
 
-    <h1>ICC Cricket World Cup 2019 — Performance Analytics Dashboard</h1>
+    <h1>ICC Cricket World Cup 2019 — Performance Analytics</h1>
 
     <p class="subtitle">
-      An interactive Tableau dashboard that summarizes team performance, venue trends, innings scoring patterns,
-      and match strategy insights from the 2019 tournament.
+      An interactive Tableau dashboard summarizing team performance, venue trends,
+      innings scoring patterns, and match strategy insights from the 2019 tournament.
     </p>
 
-    <!-- ✅ Professional buttons (fixed) -->
     <div class="cta">
       <a class="btn primary"
          href="https://public.tableau.com/app/profile/akash.kumar.dineshkumar/viz/533project/Dashboard1"
          target="_blank" rel="noreferrer">
-        View Dashboard
+        View on Tableau Public
       </a>
 
       <a class="btn"
@@ -54,96 +57,84 @@
     </div>
   </header>
 
+  <!-- ================= MAIN ================= -->
   <main class="container">
+
+    <!-- ===== Tableau Dashboard (ONLY ONE) ===== -->
     <section class="card">
       <div class="card-head">
-        <h2>Dashboard</h2>
+        <h2>Interactive Dashboard</h2>
         <p class="muted">
-          Explore filters in the dashboard for team, venue, innings, match result, and toss decisions.
+          Use in-dashboard filters to explore teams, venues, innings, results, toss decisions,
+          and strategic trends.
         </p>
       </div>
-    
+
       <div class="embed">
-        <div class='tableauPlaceholder' id='viz1770251513599' style='position: relative'><noscript><a href='#'><img alt='Team &amp; Venue Analytics – ODI Series ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;53&#47;533project&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='533project&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;53&#47;533project&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1770251513599');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='1620px';vizElement.style.maxWidth='1720px';vizElement.style.width='100%';vizElement.style.minHeight='687px';vizElement.style.maxHeight='1987px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='1620px';vizElement.style.maxWidth='1720px';vizElement.style.width='100%';vizElement.style.minHeight='687px';vizElement.style.maxHeight='1987px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='3377px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-      </div>
-
-      <div class="note">
-        Tip: If the viz takes time to load, wait a few seconds or refresh once. Tableau Public sometimes initializes slowly.
+        <iframe
+          src="https://public.tableau.com/views/533project/Dashboard1?:showVizHome=no"
+          title="ICC World Cup 2019 Tableau Dashboard"
+          loading="lazy"
+          allowfullscreen>
+        </iframe>
       </div>
     </section>
 
+    <!-- ===== Insights & Context ===== -->
     <section class="grid">
       <section class="card">
-        <h3>What this dashboard answers</h3>
+        <h3>Key Insights</h3>
         <ul>
-          <li>Top-performing teams by wins and win percentage</li>
-          <li>High-scoring venues and chase-friendly grounds</li>
-          <li>Innings-wise scoring patterns (1st vs 2nd innings)</li>
-          <li>Toss decision impact (bat vs field)</li>
-          <li>Success patterns for chasing and defending 300+ totals</li>
+          <li>Top teams by wins and win percentage</li>
+          <li>High-scoring and chase-friendly venues</li>
+          <li>First vs second innings scoring trends</li>
+          <li>Impact of toss decisions on outcomes</li>
+          <li>Success patterns when chasing or defending 300+ totals</li>
         </ul>
       </section>
 
       <section class="card">
-        <h3>Project planning (Mural)</h3>
-        <p class="muted">
-          This Mural board documents the planning process: analysis questions, chart selection rationale,
-          dashboard layout, and filter/interactivity design.
-        </p>
-        <a class="link"
-           href="https://app.mural.co/t/team133626/m/team133626/1744656745625/73ea577e98524dd9edb60a81f23e1ae5a9e44445?sender=u326fe82ee130dabcffbc7325"
-           target="_blank" rel="noreferrer">
-          Open the Mural Planning Board →
-        </a>
-      </section>
-    </section>
-
-    <section class="grid">
-      <section class="card">
-        <h3>Dataset</h3>
-        <p class="muted">
-          ICC Cricket World Cup 2019 match dataset including scores, venues, innings details, results, and match context.
-          Data was cleaned and standardized before building the Tableau visuals.
-        </p>
-        <a class="link"
-           href="https://www.kaggle.com/datasets/venky73/icc-cricket-world-cup-2019-analysis"
-           target="_blank" rel="noreferrer">
-          Dataset reference (Kaggle) →
-        </a>
-      </section>
-
-      <section class="card">
-        <h3>Tools & methods</h3>
+        <h3>Dataset & Methods</h3>
         <ul>
-          <li>Tableau Public — interactive dashboard + actions</li>
-          <li>Calculated fields — metrics, groupings, derived measures</li>
-          <li>Data prep — parsing scores, type normalization, cleanup</li>
-          <li>Storytelling — insights by team, venue, and strategy</li>
+          <li>ICC Cricket World Cup 2019 match-level dataset</li>
+          <li>Score parsing and numeric normalization</li>
+          <li>Calculated fields and aggregations</li>
+          <li>Interactive filters and dashboard actions</li>
         </ul>
       </section>
     </section>
 
+    <!-- ===== Planning ===== -->
     <section class="card">
-      <h3>Screenshots</h3>
+      <h3>Project Planning & Design</h3>
       <p class="muted">
-        Optional: add key screenshots in <code>assets/</code> and show them here for quick recruiter scanning.
+        The Mural board documents the analytical planning process including question framing,
+        visualization selection, dashboard layout, and interaction design.
       </p>
 
+      <a class="link"
+         href="https://app.mural.co/t/team133626/m/team133626/1744656745625/73ea577e98524dd9edb60a81f23e1ae5a9e44445?sender=u326fe82ee130dabcffbc7325"
+         target="_blank" rel="noreferrer">
+        View Planning Board →
+      </a>
     </section>
+
   </main>
 
+  <!-- ================= FOOTER ================= -->
   <footer class="container footer">
     <div class="footer-inner">
       <div>
         <div class="name">Akash Kumar</div>
         <div class="muted">MS IT @ Arizona State University • Tableau • Analytics</div>
       </div>
+
       <div class="footer-links">
         <a href="mailto:akashkumard333@gmail.com">Email</a>
         <span>•</span>
-        <a href="https://www.linkedin.com/in/akash-kumar-494b52212" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/akash-kumar-494b52212" target="_blank">LinkedIn</a>
         <span>•</span>
-        <a href="https://github.com/akashkumard333-star" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://github.com/akashkumard333-star" target="_blank">GitHub</a>
       </div>
     </div>
   </footer>
